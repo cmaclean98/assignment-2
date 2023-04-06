@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7FB3D5;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#boroughs-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+#boroughs-list li {
+    margin: 0 10px;
+}
+
+#boroughs-list a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+    text-decoration: none;
+}
+
+#boroughs-list a:hover {
+    background-color: #85929E;
+}
+
+#image-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#image-container img {
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
